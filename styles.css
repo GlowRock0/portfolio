@@ -29,3 +29,48 @@ h3{
     margin-top: 20px; /* Add less space above */
     margin-bottom: 0px; /* Add slightly more space below */
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.project-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project-name {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.project-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
