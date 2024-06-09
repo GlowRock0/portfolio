@@ -126,3 +126,8 @@ index-body {
     margin: 0;
     padding: 0;
 }
+.gameLink {
+    color: blue;
+    text-decoration: underline; 
+    cursor: pointer;
+}
