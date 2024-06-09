@@ -126,6 +126,14 @@ index-body {
     margin: 0;
     padding: 0;
 }
+.iframe-container-yatzy {
+    width: 100%;
+    border: none;
+    min-height: 1200px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 .gameLink {
     color: blue;
     text-decoration: underline; 
