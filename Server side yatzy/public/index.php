@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles.php">
 </head>
 <body>
-    <div class ="container">
         <div class="roll-button">
             <div class="roll-counter" id="roll-counter"></div> 
             <button id="rollButton">Roll Dice</button>
@@ -177,6 +176,6 @@
         </div>
 
         <script src="scripts.js"></script>
-    </div>
+
 </body>
 </html>
