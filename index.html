@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,12 @@
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+});
+
+</script>
 <index-body>
     <div class="overallContainer">
         <object class="iframe-container-resume" type="text/html" data="resume.html"></object>
@@ -14,4 +20,43 @@
 
     </div>
 </index-body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 style="margin-left: 0;">Projects</h1>
+            <nav>
+                <button onclick="loadContent('resume.html')">Resume</button>
+                <button onclick="loadContent('projects.html')">Assignment 1</button>
+                <button onclick="loadContent('yatzy/head.html')">Assignment 2</button>
+                <button onclick="loadContent('Server side yatzy/public/index.php')">Assignment 3</button>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        
+        <div class="overallContainer">
+            <object class="iframe-container-resume" type="text/html" data="resume.html"></object>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+     
+            loadContent('resume.html');
+        });
+
+        function loadContent(page) {
+            document.querySelector('.iframe-container-resume').data = page;
+        }
+    </script>
+</body>
 </html>
