@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+#patientList {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#patientList h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}

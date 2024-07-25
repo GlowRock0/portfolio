@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Triage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hospital Triage</h1>
+    <div class="button-container">
+        <a href="admin.html" class="btn">Admin Dashboard</a>
+        <a href="patient.html" class="btn">Patient Dashboard</a>
+    </div>
+    <div class="db-config">
+        <h2>Database Configuration</h2>
+        <form id="dbConfigForm">
+            <label for="dbname">Database Name:</label>
+            <input type="text" placeholder="emergency_waitlist" id="dbname" name="dbname" required>
+            <label for="dbuser">Database User:</label>
+            <input type="text" placeholder="postgres" id="dbuser" name="dbuser" required>
+            <label for="dbpass">Database Password:</label>
+            <input type="password" placeholder="pass1234" id="dbpass" name="dbpass" required>
+            <button type="submit">Save Configuration</button>
+        </form>
+        <div class="centered" id="configStatus"></div>
+    </div>
+    <div>
+        <p class="bold" style="margin: 50px; font-size: 22px !important;">Github pages doesn't support server side languages. Therefore, php isn't supported.<br>
+            <div class = "normal"  style="margin: 50px">
+                Portfolio Repository: <a href="https://github.com/GlowRock0/portfolio" target="_blank">https://github.com/GlowRock0/portfolio </a><br>
+                Yatzy Repository: <a href="https://github.com/GlowRock0/emergency_waitlist" target="_blank">https://github.com/GlowRock0/emergency_waitlist </a>
+            </div>
+            </p>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
